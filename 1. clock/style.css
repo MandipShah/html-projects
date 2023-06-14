@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("https://wallup.net/wp-content/uploads/2019/09/480056-nature.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 04px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(169, 195, 195);
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 20px;
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background: rgb(255, 204, 149);
+    opacity: .8;
+    color: rgb(204, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 5px 2px 4px rgba(255, 255, 255, 0.3);
+    
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(255, 163, 66);
+    opacity: .8;
+}
+
+.clock #am{
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(249, 149, 42);
+    border-radius: 10px;
+
+}
